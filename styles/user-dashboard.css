@@ -1,0 +1,102 @@
+.grid { /* referance from www.w3chools.com */
+    height: max-content;
+    /*width: 100vw;*/
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    display: grid;
+
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 1fr ;
+
+    /*gap: 10px;*/
+
+    /*padding: 10px;*/
+    box-sizing: border-box;
+}
+
+/*.grid div {
+    padding: 10px;
+    border:1px solid black;
+}*/
+
+/* SUB MENU */
+.subMenu {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.subMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+.subMenu a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.subMenu a:hover {
+    background-color: #555;
+    color: white;
+}
+
+main {
+grid-column-start: 2;
+grid-column-end: 3;
+padding: 30px;
+}
+
+#button {
+    width: 100px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    color: white;
+    background-color: black;
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+  }
+  
+#button:hover {
+    background-color: #eba83a;
+}
+
+.topic {
+    font-size: 30px;
+}
+  
+.topic hr {
+    height: 3px;
+    width: 100%;
+    border-width: 0;
+    background-color: gray;
+}
+
+label {
+    font-size: 16px;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type=password] {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
