@@ -1,0 +1,211 @@
+body {
+  margin: 0px;
+}
+
+/* slider section */
+.slider-container {
+  /* border: 1px solid black; */
+  position: relative;
+  width: 1310px;
+  height: 450px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slider {
+  display: flex;
+  width: auto;
+  height: 500px;
+  margin: auto;
+}
+
+#preBtn {
+  position: absolute;
+  top: 30%;
+  z-index: 10;
+  left: 36px;
+  font-size: 30px;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#nxtBtn {
+  position: absolute;
+  top: 30%;
+  z-index: 10;
+  right: 16px;
+  font-size: 30px;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.home-top {
+  padding: 4rem 3.5rem 0 0;
+}
+
+.home-lb {
+  font-family: "Ubuntu";
+  font-size: 28px;
+  font-weight: bold;
+  padding: 1.8rem 0 0 2rem;
+}
+
+.recipe-img {
+  display: block;
+  margin: auto;
+  border-radius: 1.2rem;
+}
+
+.recipe-container {
+  margin-top: 1rem;
+  padding-left: 90px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1 0 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 4.2rem;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  border-radius: 1.2rem;
+}
+
+.box:hover {
+  box-shadow: 0 4px 0 0 #bb371a;
+}
+
+.box-title {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.box-text {
+  margin: auto;
+}
+
+hr {
+  height: 2px;
+  width: 18rem;
+  border-width: 0;
+  background-color: gray;
+}
+
+.r-name {
+  /* recipe name */
+  text-decoration: none;
+  color: black;
+}
+
+h4 {
+  font-family: "Glory", sans-serif;
+  font-size: 18px;
+}
+
+.box-md {
+  font-family: "Glory", sans-serif;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 10px;
+  pointer-events: none;
+  font-weight: 600;
+}
+
+#time {
+  /* cooking time */
+  font-size: 18px;
+  text-transform: uppercase;
+  float: right;
+  margin-right: 15px;
+}
+
+/* latest recieps section */
+.md-recipe-img {
+  display: block;
+  margin: auto;
+}
+
+.md-recipe-container {
+  margin-top: 4rem;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-right: 40px;
+}
+
+.md-recipe-top {
+  padding: 4rem 3.5rem 0 0;
+}
+
+.md-recipe-lb {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.8rem 0 0 4.5rem;
+}
+
+.md-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.md-column {
+  flex: 1 0 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.md-margin-bt {
+  margin-bottom: 3rem;
+}
+
+.md-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+}
+
+.md-box-title {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.md-box-text {
+  margin: auto;
+}
+
+.md-r-name {
+  /* recipe name */
+  text-decoration: none;
+  color: black;
+}
+
+.md-box-md {
+  font-family: "Glory", sans-serif;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 10px;
+  pointer-events: none;
+  font-weight: 600;
+}
+
+#md-time {
+  /* cooking time */
+  font-size: 18px;
+  text-transform: uppercase;
+  float: right;
+  margin-right: 15px;
+}
