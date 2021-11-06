@@ -1,0 +1,107 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+.topic {
+  text-align: center;
+  font-size: 30px;
+  padding: 3rem 0 1rem 0;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+}
+
+hr {
+  border: 2px solid gray;
+}
+
+#li-lb {
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+#li-style {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.info-container {
+  margin: 2rem 0 2rem 2rem;
+  font-size: 18px;
+}
+
+.info-section {
+  background-color: #e2e2e2;
+  padding-bottom: 2rem;
+}
+
+.fm-container {
+  width: 50rem;
+  height: 30rem;
+  position: relative;
+  background-color: white;
+  margin-left: 8rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  box-shadow: 4px 4px 4px 8px #c9c9c9;
+}
+
+input[type="text"],
+[type="textarea"] {
+  width: 30%;
+  margin: 15px 18px;
+  padding: 12px 12px;
+  display: inline-block;
+  border: 1px solid #141414;
+  outline: none;
+  font-size: 18px;
+}
+
+textarea {
+  margin: 8px 18px;
+  padding: 15px 10px;
+  outline: none;
+  border-radius: 0.2rem;
+  font-size: 18px;
+  border: 1px solid #141414;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 0;
+  outline: none;
+  color: white;
+  background-color: black;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 25rem;
+  left: 1rem;
+}
+
+button:hover {
+  background-color: #eba83a;
+}
+
+.web-info-container {
+  width: 25rem;
+  height: 32rem;
+  position: absolute;
+  background-color: #eba83a;
+  margin-left: 8rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  box-shadow: 4px 4px 4px 2px #c9c9c9;
+  top: 14rem;
+  right: 6rem;
+}
+
+.ctopic {
+  font-size: 22px;
+  padding: 3rem 0 5rem 0;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: capitalize;
+  margin-left: 4rem;
+}
