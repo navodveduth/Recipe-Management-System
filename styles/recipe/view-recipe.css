@@ -1,0 +1,280 @@
+@media print {
+  /* print function  (referance from https://stackoverflow.com/a/44724517) */
+  .noPrint {
+    display: none;
+    padding-bottom: 1rem;
+  }
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+
+.recipe-bar {
+  padding: 4rem 3.5rem 0 0;
+}
+
+.recipe-lb {
+  /* recipe name */
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  padding: 1.8rem 0 0 4.5rem;
+}
+
+/* recipe category */
+.recipe-cat {
+  padding: 1.8rem 0 0 4.5rem;
+}
+
+.recipe-cat span {
+  font-size: 1rem;
+  margin-right: 15px;
+}
+
+.recipe-cat i {
+  margin-right: 8px;
+}
+
+.list-dt {
+  list-style: none;
+  background-color: #f8f8f8;
+  padding: 20px 0 20px 0;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.list-dt li {
+  /*font-family: 'Oxygen', sans-serif;*/
+  font-size: 14px;
+  display: inline;
+  padding-left: 30px;
+  padding-right: 25px;
+}
+
+.recipe-des {
+  text-transform: initial;
+}
+
+.search {
+  width: 270px;
+  height: 40px;
+  border: 2px solid #1fab89;
+  border-radius: 14px;
+  float: right;
+  background-color: white;
+  margin-right: 3rem;
+}
+
+input {
+  width: 260px;
+  padding: 12px 5px;
+  margin-left: 10px;
+  border: 0;
+  border-radius: 14px;
+  outline: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: 60% auto; /* 60% auto */
+  margin: 2rem 3px 0 4.5rem;
+}
+
+.user-img {
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+/* Popular recipes */
+.popular {
+  text-transform: capitalize;
+  padding-top: 5rem;
+  margin: 1rem 2.8rem 0 4.5rem;
+}
+
+.popu-img {
+  width: 120px;
+  height: 100px;
+  float: left;
+  border-radius: 10%;
+  padding-bottom: 20px;
+}
+
+.popular-grid {
+  display: grid;
+  padding: 10px 15px 0 10px;
+}
+
+.popu-bt {
+  margin-left: 9rem;
+  margin-top: 1rem;
+  font-family: "Glory", sans-serif;
+}
+
+.popu-link {
+  text-decoration: none;
+  color: #548ca8;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.field-set {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#bookmark-btn {
+  position: relative;
+  left: 32.6rem;
+  top: -1rem;
+}
+
+#print-btn {
+  position: relative;
+  left: 15.8rem;
+  top: -1rem;
+}
+
+.author {
+  text-transform: initial;
+  margin: 1rem 2.8rem 0 4.5rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.share {
+  text-transform: initial;
+  margin: 5rem 2.5rem 0 4.8rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.share-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  padding: 15px 15px 15px 28px;
+}
+
+/* Comment  Section */
+.comment-mid {
+  display: grid;
+  grid-template-columns: 40% auto;
+}
+
+.com-lb {
+  position: relative;
+  font-size: 16px;
+  bottom: 5rem;
+  left: 21rem;
+}
+
+.com-area {
+  border: 1px solid black;
+  position: relative;
+  left: 21rem;
+  bottom: 4rem;
+  outline: none;
+}
+
+/* Rating */
+.rate-lb {
+  padding-left: 70px;
+  position: relative;
+  top: 10px;
+  font-size: 16px;
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating {
+  margin-top: 20px;
+  display: table;
+  width: 350px;
+}
+
+.star-rating label {
+  padding: 10px;
+  float: right;
+  font-size: 30px;
+  color: #eee;
+  position: relative;
+  right: 70px;
+  cursor: pointer;
+  top: 20px;
+}
+
+/* reference - https://www.markuptag.com/feedback-form-with-star-rating-html */
+.star-rating input:not(:checked) ~ label:hover,
+.star-rating input:not(:checked) ~ label:hover ~ label {
+  color: #ffc107;
+}
+
+.star-rating input:checked ~ label {
+  color: #ffc107;
+}
+
+.star-rating:before {
+  width: 100%;
+  float: left;
+  color: #ffc107;
+}
+
+.submit-btn {
+  width: 120px;
+  height: 40px;
+  position: relative;
+  top: 2rem;
+  right: 13rem;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+  color: white;
+  background-color: black;
+  border-radius: 0.25rem;
+  padding-bottom: 20px;
+}
+
+.submit-btn:hover {
+  background-color: #eba83a;
+}
+
+/* Comment section */
+.c-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 150rem;
+  left: 10rem;
+}
+
+.cc-img {
+  width: 100px;
+  height: 100px;
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+  border-radius: 10%;
+  position: relative;
+}
+
+.fname {
+  position: relative;
+  bottom: 4.5rem;
+  left: 2rem;
+}
+
+.c_des {
+  position: relative;
+  bottom: 3.5rem;
+  left: 9.5rem;
+}

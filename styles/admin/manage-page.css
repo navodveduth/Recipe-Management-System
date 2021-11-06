@@ -1,0 +1,154 @@
+body {
+  margin: 0px;
+}
+
+.mr-navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  border: 1px solid rgb(44, 41, 41);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.user-img {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+/* reference https://www.w3schools.com/css/css_navbar_vertical.asp */
+#li-list a {
+  display: block;
+  color: #000;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+#li-list {
+  text-align: center;
+  border-bottom: 1px solid rgb(44, 41, 41);
+}
+
+#li-list:last-child {
+  border-bottom: none;
+}
+
+#li-list a.active {
+  background-color: black;
+  color: white;
+}
+
+#li-list a:hover:not(.active) {
+  background-color: rgb(44, 41, 41);
+  color: white;
+}
+
+.db-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0;
+}
+
+/* reference https://stackoverflow.com/a/41328830 */
+.noHover {
+  pointer-events: none;
+}
+
+.mglbl {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin-top: 5rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#thead {
+  background-color: black;
+  color: white;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffd384;
+}
+
+#mg-btn {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+  color: white;
+  background-color: black;
+  border-radius: 2rem;
+}
+
+#mg-btn:hover {
+  background-color: #eba83a;
+}
+
+legend {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.view-box {
+  display: inline;
+  width: 50px;
+  height: 30px;
+  background-color: #ffb53e;
+  color: black;
+  padding: 20px;
+  position: relative;
+  bottom: 5px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.fdset {
+  padding: 2rem 1rem 3rem 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+
+.d-container {
+  display: flex;
+  justify-content: center;
+  padding-left: 8rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.fd-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#font-icon {
+  color: darkorange;
+}

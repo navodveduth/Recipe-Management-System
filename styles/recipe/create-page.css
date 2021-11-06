@@ -1,0 +1,259 @@
+.recipe-top {
+  padding: 4rem 3.5rem 0 0;
+}
+
+.recipe-lb {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.8rem 0 0 4.5rem;
+}
+
+hr {
+  height: 2px;
+  width: 90%;
+  border-width: 0;
+  background-color: gray;
+}
+
+ul.breadcrumb {
+  padding: 10px 72px;
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 16px;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: ">\00a0";
+}
+
+ul.breadcrumb li a {
+  color: black;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #eba83a;
+}
+
+.form-container {
+  padding: 10px 72px;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+input {
+  margin-left: 2rem;
+  padding: 5px 10px;
+  float: right;
+  outline: none;
+  border-radius: 0.2rem;
+  font-size: 16px;
+}
+
+textarea {
+  margin-left: 2rem;
+  padding: 5px 10px;
+  float: right;
+  outline: none;
+  border-radius: 0.2rem;
+  font-size: 18px;
+  border: 2px solid black;
+}
+
+.pre_time_lb {
+  left: 15rem;
+  top: 50.5rem;
+  position: absolute;
+}
+
+.pre_time_text {
+  left: 23rem;
+  top: 50rem;
+  position: absolute;
+}
+
+.cook_time_lb {
+  right: 30rem;
+  top: 50.5rem;
+  position: absolute;
+}
+
+.cook_time_text {
+  right: 14rem;
+  top: 50rem;
+  position: absolute;
+}
+
+.ingre_lb {
+  top: 55.5rem;
+  position: absolute;
+}
+
+.ingre_text {
+  left: 11.6rem;
+  top: 55rem;
+  position: absolute;
+}
+
+.diff_lb {
+  right: 33rem;
+  top: 55rem;
+  position: absolute;
+}
+
+.diff {
+  right: 25.4rem;
+  top: 54.5rem;
+  position: absolute;
+  font-size: 110%;
+  display: inline;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 0.2rem;
+}
+
+.serve_lb {
+  right: 34.2rem;
+  top: 58.2rem;
+  position: absolute;
+}
+
+.serves_text {
+  right: 20.2rem;
+  top: 58rem;
+  position: absolute;
+  text-align: center;
+}
+
+.create_lb {
+  right: 33.5rem;
+  top: 62rem;
+  position: absolute;
+}
+
+.create_text {
+  right: 18.5rem;
+  top: 61.8rem;
+  position: absolute;
+  border: 0;
+}
+
+.update_lb {
+  right: 33.2rem;
+  top: 66rem;
+  position: absolute;
+}
+
+.update_text {
+  right: 14.5rem;
+  top: 65.5rem;
+  position: absolute;
+}
+
+.upload_lb {
+  right: 30.8rem;
+  top: 71rem;
+  position: absolute;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.image-upload {
+  position: absolute;
+  cursor: pointer;
+  right: 17rem;
+  top: 68.5rem;
+}
+
+.method_lb {
+  position: absolute;
+  top: 87.5rem;
+}
+
+.method_text {
+  position: absolute;
+  left: 11.6rem;
+  top: 87rem;
+}
+
+.status_lb {
+  position: absolute;
+  top: 105rem;
+}
+
+.status_rd {
+  position: absolute;
+  top: 104.5rem;
+  left: 15.5rem;
+}
+
+.rd_btn {
+  position: absolute;
+  right: 4.5rem;
+}
+
+.vid_lb {
+  position: absolute;
+  top: 105rem;
+  right: 35rem;
+}
+
+.vid_text {
+  position: absolute;
+  top: 104.5rem;
+  right: 4.5rem;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  float: left;
+  cursor: pointer;
+  font-weight: bold;
+  border: 0;
+  outline: none;
+  color: white;
+  background-color: black;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 111rem;
+  left: 25rem;
+}
+
+button:hover {
+  background-color: #eba83a;
+}
+
+.submit-btn {
+  width: 120px;
+  height: 40px;
+  float: left;
+  cursor: pointer;
+  font-family: "Ubuntu";
+  font-weight: 200;
+  border: 0;
+  outline: none;
+  color: white;
+  background-color: black;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 111rem;
+  left: 12rem;
+}
+
+.submit-btn:hover {
+  background-color: #eba83a;
+}
