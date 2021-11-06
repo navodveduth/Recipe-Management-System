@@ -1,0 +1,52 @@
+/* HTML BODY*/
+body {
+    margin: 0;
+}
+  
+/* GRID CONTAINER */
+.grid {
+    height: 14.6rem;
+    /*width: 100vw;*/
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    /*gap: 10px;*/
+
+    /*padding: 10px;*/
+    box-sizing: border-box;
+}
+/*
+.grid div {
+    padding: 10px;
+    border:1px solid black;
+}
+*/
+#profile_image {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#profile_details {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-top: 3rem;
+}
+
+.userRecipe {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+#profile_image img {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
