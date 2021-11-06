@@ -1,0 +1,113 @@
+/* HTML BODY*/
+body {
+  margin: 0;
+}
+
+/* GRID CONTAINER */
+.container {
+  height: 14.6rem;
+  /*width: 100vw;*/
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 50px;
+
+  /*gap: 10px;*/
+
+  /*padding: 10px;*/
+  box-sizing: border-box;
+}
+
+/*.container div {
+    padding: 10px;
+    border:1px solid black;
+}*/
+
+/* HEADER */
+.headerLeft {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: #bb371a;
+}
+
+.headerRight {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background: #bb371a;
+}
+
+#logo {
+  padding: 30px;
+  width: 250px;
+  float: left;
+}
+
+.headerRight div {
+  text-align: right;
+  margin: 50px 100px 10px 10px;
+  font-size: 20px;
+}
+
+.headerRight a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+#login {
+  position: absolute;
+  right: 5rem;
+}
+
+#register {
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+}
+
+#searchIcon {
+  
+  position: absolute;
+  top: 8rem;
+  right: 5rem;
+}
+
+/* NAVIGATION BAR */ /* referance from www.w3chools.com */
+.navBar {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #141414;
+}
+.navBar li {
+  float: left;
+}
+
+.navBar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+
+.navBar a:hover {
+  background-color: #eba83a;
+}
+
+.navBar .active {
+  background-color: #bb371a;
+}
+
+
