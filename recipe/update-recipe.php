@@ -19,7 +19,7 @@
     if(isset($_POST['submit'])) {
         $Title = $_POST['title'];
         $Category = $_POST['category']; 
-		$Permalink = $_POST['p_link'];
+	$Permalink = $_POST['p_link'];
         $R_description = $_POST['description'];
         $Prep_time = $_POST['prepare_time'];
         $Cook_time = $_POST['cook_time'];
@@ -32,7 +32,9 @@
         $R_status = $_POST['status'];
         $Video_link = $_POST['video'];
 
-        $img_dir = "../images/recipe/";
+        
+	/* Image path */    
+	$img_dir = "../images/recipe/";
         $image_file = $img_dir . basename($_FILES["image"]["name"]);
         move_uploaded_file($_FILES["image"]["tmp_name"], $image_file);
         $img_name = basename($_FILES["image"]["name"]);
@@ -42,7 +44,7 @@
 
         if(mysqli_num_rows($ck_img) > 0){
             while($row = mysqli_fetch_assoc($ck_img)){
-            $dbimage = $row['Recipe_image'];
+            	$dbimage = $row['Recipe_image'];
             }
         }
 
