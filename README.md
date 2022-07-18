@@ -20,9 +20,9 @@ Apache\
 ### User Login:
 
 Email: user1@system.com\
-Password: User1Password@12345\\*\
+Password: User1Password@12345\\*
 
 ### Admin Login:
 
 Email: user3@system.com\
-Password: User3Password@12345\\*\
+Password: User3Password@12345\\*
