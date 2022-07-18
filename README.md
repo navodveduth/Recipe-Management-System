@@ -10,19 +10,19 @@ The admin users are responsible for managing the website, moderating users, and 
 
 ## Requirements
 
-XAMPP
-PHP
-MySQL
-Apache
+XAMPP\
+PHP\
+MySQL\
+Apache\
 
 ## Login Credentials
 
 ### User Login:
 
-Email: user1@system.com
-Password: User1Password@12345\*
+Email: user1@system.com\
+Password: User1Password@12345\\*\
 
 ### Admin Login:
 
-Email: user3@system.com
-Password: User3Password@12345\*
+Email: user3@system.com\
+Password: User3Password@12345\\*\
