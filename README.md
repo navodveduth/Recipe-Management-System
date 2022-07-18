@@ -13,7 +13,7 @@ The admin users are responsible for managing the website, moderating users, and 
 XAMPP\
 PHP\
 MySQL\
-Apache\
+Apache
 
 ## Login Credentials
 
