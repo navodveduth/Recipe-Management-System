@@ -8,8 +8,11 @@ They can create a registered user account to the website by submitting their ema
 
 The admin users are responsible for managing the website, moderating users, and their behavior. An admin user can manage users, recipes, comments, and newsletters. They can also update contact information and do minor changes to the website.
 
-## Requirements
+## Technology Stack
 
+HTML\
+CSS\
+JavaScript\
 XAMPP\
 PHP\
 MySQL\
